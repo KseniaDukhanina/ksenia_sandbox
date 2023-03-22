@@ -4,3 +4,4 @@ version: 2
 formats:
   - epub
   - htmlzip
+  - pdf

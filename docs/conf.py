@@ -58,6 +58,16 @@ templates_path = ['_templates']
 # Usually you set "language" from the command line for these cases.
 language = 'ru'
 
+# translate
+locale_dirs = ['locale/']   # Path to translate lang
+gettext_compact = False     
+# gettext_uuid = True   
+
+html_context = {
+    # ... other params...
+    'languages': [ ('en', 'English'), ('ru', 'Russian') ], # Пример для языкового селектора
+}
+
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
@@ -118,7 +128,3 @@ def setup(app):
   app.add_css_file( "css/main_theme.css" )
 
 
-# translate
-locale_dirs = ['locale/']   # Путь к каталогу с переводами
-gettext_compact = False     # Важно: создает отдельные .po файлы для каждого .rst файла
-# gettext_uuid = True       # Опционально: добавляет UUID к строкам для лучшего отслеживания

@@ -21,11 +21,11 @@ msgstr ""
 
 #: ../../Введение.rst:2
 msgid "Знакомство с Citeck"
-msgstr ""
+msgstr "Introduction to Citeck"
 
 #: ../../Введение.rst:6
 msgid ""
 "В разделе описан интерфейс Citeck и работа с поставляемыми модулями "
 "системы."
-msgstr ""
+msgstr "This section describes the Citeck interface and working with the system's supplied modules."
 

@@ -19,3 +19,8 @@ python:
    
 sphinx:
   configuration: docs/conf.py
+  # Укажите язык по умолчанию (будет доступен по основному URL)
+  default_language: ru
+  # СПИСОК всех языков, которые нужно собрать
+  languages:
+    - en

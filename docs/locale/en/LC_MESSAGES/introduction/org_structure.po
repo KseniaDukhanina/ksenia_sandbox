@@ -1,0 +1,412 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Citeck
+# This file is distributed under the same license as the Citeck package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Citeck \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-22 01:00+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../introduction/org_structure.rst:2
+msgid "Организационная структура"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:7
+msgid "Содержание"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:10
+msgid "Страница оргструктуры"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:12
+msgid ""
+"В системе предусмотрен функционал формирования организационной структуры "
+"компании. **Организационная структура** – система иерархически "
+"упорядоченных организационных единиц (должностей, отделов, "
+"подразделений)."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:16
+msgid ""
+"Оргструктура доступна в рабочем пространстве "
+":ref:`Справочники<datalists>` и на :ref:`корпоративном "
+"портале<corp_portal>`."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:18
+msgid "Форма оргструктуры разделена на две части и содержит:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:20
+msgid "иерархическое дерево структуры с возможностью поиска **(1)**,"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:21
+msgid "дашборд с информацией о выбранной части структуры **(2)**."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:28
+msgid "Создание группы"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:32
+msgid "Для создания группы в списке оргструктуры нажмите:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:38
+msgid ""
+"Группа **Оргструктура** добавлена по умолчанию. Внесите данные в "
+"обязательные поля и нажмите **Сохранить**."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:44
+msgid "См. подробно о :ref:`приватных группах<UNIFIED_PRIVATE_GROUP>`"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:46
+msgid ""
+"По кнопке **(1)** можно выбрать из оргструктуры родительскую группу (в "
+"которую создаваемая группы будет входить)."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:53
+msgid "Создание подгруппы, добавление пользователя в группу"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:55
+msgid ""
+"Для группы доступны кнопки управления, которые отображаются при наведении"
+" на элемент."
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid "**Редактировать**"
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid ""
+"На форме отображены все группы и пользователи, входящие в группу, "
+"информация о родительских группах."
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid ""
+"Можно отредактировать **Имя группы**, **Описание**, **удалить (1)**,  "
+"**добавить родительские группы** **(2)**."
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid "По клику на группу/ пользователя **(3)** доступен просмотр информации:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid "**Добавить подгруппу**"
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid "Выберите **существующую** группу/группы из оргструктуры. Нажмите **Ок**."
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid "Пример иерархии подгрупп и пользователей в них:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid "**Добавить пользователя в группу**"
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid "Выберите **существующих** пользователей из оргструктуры. Нажмите **Ок**."
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid "**Создать пользователя**"
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid "Группа будет уже предзаполнена."
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid "Внесите данные и сохраните. Обязательные поля отмечены звездочкой."
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid ""
+"Чтобы задачи пользователя были доступны для контроля руководителем, "
+"заполните поле **Линейный руководитель**."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:141
+msgid ""
+"Просмотр и редактирование профиля пользователя, удаление пользователя из "
+"группы"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:143
+msgid ""
+"Для пользователя доступны кнопки управления, которые отображаются при "
+"наведении на элемент."
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid "**Исключить пользователя из группы**"
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid "Действие необходимо подтвердить:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid "**Открыть профиль пользователя**"
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid ""
+"Профиль представлен в виде :ref:`дашборда<dashboard>`. Дашборд состоит из"
+" :ref:`виджетов<widgets>`."
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid ""
+"Виджеты на дашборде можно конфигурировать - менять их местами, скрывать "
+"ненужные. См. подробно :ref:`о конфигурации дашбордов<dashboard_config>`"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:186
+msgid ""
+"Пользователь может редактировать только свой профиль, администратор - "
+"профиль любого пользователя."
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid "Для редактирования информации виджета нажмите:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst
+msgid "Или редактировать непосредственно в строке:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:205
+msgid "Компонент Оргструктура"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:207
+msgid ""
+"Компонент используется для выбора сотрудников и групп в формах "
+"документов, бизнес-процессов и т.д."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:213
+msgid ""
+"По умолчанию **Оргструктура** представлена в виде **иерархии по "
+"уровням**. Выбор сотрудника осуществляется нажатием на:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:219
+msgid "**Все пользователи** списком:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:225
+msgid "Неактивные пользователи отмечены более светлым оттенком серого."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:227
+msgid "**Только выбранные** ранее:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:234
+msgid "Конфигурация компонента оргструктуры"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:238
+msgid "Перейдите в журнал :ref:`«Конфигурация ECOS»<configuration_admin>`."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:240
+msgid ""
+"Журнал доступен по адресу: ``v2/admin?journalId=ecos-"
+"configs&type=JOURNAL``"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:242
+msgid "В поисковой строке введите **org** - откроется список возможных настроек:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:249
+msgid "Изменение маски вывода данных пользователя"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:251
+msgid ""
+"Маску для отображения информации о пользователе можно изменить. Откройте "
+"идентификатор **orgstruct-username-mask** в режиме редактирования:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:257
+#, python-brace-format
+msgid ""
+"Укажите маску, например, **${firstName} ${lastName} ${email}** и "
+"сохраните:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:263
+msgid "Измененный вывод данных пользователя в компоненте Оргструктура:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:269
+msgid ""
+"Добавлена возможность в конфигурации маски отображения пользователей в "
+"компоненте оргструктура использовать код HTML."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:271
+msgid "Пример с использованием кода HTML. Маска:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:273
+#, python-brace-format
+msgid ""
+"``${firstName} ${lastName} <span style=\"color: #7396cd;font-"
+"size:bold;\"><a "
+"href=\"https://localhost/v2/orgstructure?recordRef=emodel/person@${fullName}\""
+" ><b>(${fullName})</b></a></span>``"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:279
+msgid ""
+"По клику на ссылку в отдельной вкладке открывается страница профиля "
+"пользователя."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:282
+msgid "Где найти атрибуты для маски"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:286
+msgid ""
+"Перейти в **Типы данных**, в настройках выставить :ref:`отображение "
+"системных типов<data_types_admin>`. Открыть тип **Person**, перейти в "
+"атрибуты:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:292
+msgid "Значение в поле **Id** является атрибутом."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:295
+msgid "Скрывать пользователей/ группы при поиске в оргструктуре"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:297
+msgid ""
+"Определенных пользователей или группы можно скрыть в поисковой выдаче в "
+"оргструктуре."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:299
+msgid ""
+"Откройте идентификатор **hide-in-orgstruct** в режиме редактирования. "
+"Укажите логины пользователей, например, **ivanov_ii,petrov_vv** и "
+"сохраните:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:305
+msgid "Поиск пользователя в компоненте **Оргструктура**:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:312
+msgid "Скрывать отключенных пользователей для всех, кроме администраторов"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:314
+msgid ""
+"В оргструктуре отключенных пользователей можно скрыть для всех, кроме "
+"администраторов."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:316
+msgid ""
+"Откройте идентификатор **orgstruct-show-inactive-user-only-for-admin** в "
+"режиме редактирования:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:322
+#: ../../introduction/org_structure.rst:362
+msgid "Выставите чек-бокс **«Включить»**."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:325
+msgid "Дополнительные поля для поиска пользователей"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:327
+msgid "По умолчанию поиск происходит, если в поисковой строке указать:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:329
+msgid ""
+"1 слово - по полям **отображаемое имя в оргструктуре (1)**, **системное "
+"имя (2)**;"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:335
+msgid "2 слова - по полям **Имя**, **Фамилия**;"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:336
+msgid "3 слова - по полям **Имя**, **Фамилия**, **Отчество**;"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:337
+msgid "более 3 слов, аналогично как поиск по **1 слову**."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:339
+msgid ""
+"Для добавления дополнительных полей для поиска откройте идентификатор "
+"**orgstruct-search-user-extra-fields** в режиме редактирования:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:345
+msgid ""
+"Укажите наименование :ref:`атрибута<org_structure_type_person>`, по "
+"которому необходимо искать."
+msgstr ""
+
+#: ../../introduction/org_structure.rst:347
+msgid "Поиск по добавленному в настройку полю:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:354
+msgid "Использовать Отчество для поиска пользователей"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:356
+msgid ""
+"Для поиска пользователей в оргструктуре по отчеству откройте "
+"идентификатор **orgstruct-search-user-middle-name** в режиме "
+"редактирования:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:364
+msgid "Поиск по отчеству - в самой оргструктуре:"
+msgstr ""
+
+#: ../../introduction/org_structure.rst:370
+msgid "и в компоненте **Оргструктура**:"
+msgstr ""
+

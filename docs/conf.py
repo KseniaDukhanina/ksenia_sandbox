@@ -117,3 +117,8 @@ html_static_path = ['_static']
 def setup(app):
   app.add_css_file( "css/main_theme.css" )
 
+
+# translate
+locale_dirs = ['locale/']   # Путь к каталогу с переводами
+gettext_compact = False     # Важно: создает отдельные .po файлы для каждого .rst файла
+# gettext_uuid = True       # Опционально: добавляет UUID к строкам для лучшего отслеживания

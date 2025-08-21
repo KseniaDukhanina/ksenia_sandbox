@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Citeck
+# This file is distributed under the same license as the Citeck package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Citeck \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-22 01:00+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../introduction/AI_Assistant.rst:2
+msgid "Интеллектуальный помощник"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:6
+msgid ""
+"Интеллектуальный помощник для платформы Citeck с функционалом на основе "
+"искусственного интеллекта для автоматизации бизнес-процессов, работы с "
+"документами и управления данными."
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:10
+msgid "Доступно только в Enterprise версии c флагом ai в лицензии."
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:13
+msgid "Содержание"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:16
+msgid "Интерфейс пользователя"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:19
+msgid "Основные функции UI"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:21
+msgid ""
+"Два режима работы: переключение между универсальным и контекстным "
+"помощником"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:22
+msgid "Автокомплит с @: быстрое добавление записей в контекст чата"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:23
+msgid "Контекстные теги: визуальное отображение добавленного контекста"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:26
+msgid "Горячие клавиши"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:28
+msgid ""
+"``Cmd+I`` (Mac) / ``Alt+I`` (Windows/Linux) - открыть/закрыть "
+"AI-ассистента"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:29
+msgid "``Enter`` - отправить сообщение"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:30
+msgid "``Shift+Enter`` - новая строка"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:31
+msgid "``Escape`` - закрыть чат"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:32
+msgid "``@`` - вызвать автокомплит для добавления контекста"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:35
+msgid "Универсальный помощник"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:37
+msgid ""
+"Универсальный AI-ассистент с автоматическим определением намерений и "
+"контекстно-зависимым выбором инструментов."
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:39
+msgid "Поддерживаемые задачи:"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:40
+msgid ""
+"**Ассистент по артефактам** - создание, редактирование и развертывание "
+"поддерживаемых артефактов."
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:41
+msgid ""
+"**Анализ документов** - извлечение информации и ответы на вопросы по "
+"документам."
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:42
+msgid "**Сравнение документов** - анализ различий между версиями документов."
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:45
+msgid "Ассистент по артефактам"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:48
+msgid "Типы данных"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:50
+msgid "**Генерация** типов данных на основе текстового описания."
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:51
+msgid ""
+"**Редактирование** существующего типа данных. Для этого перейдите на "
+"карточку типа данных и добавьте `@запись` в контекст чата."
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:52
+msgid "**Развертывание** типа данных в системе."
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:53
+msgid ""
+"**Вопросы и анализ** по атрибутам, структуре и функционалу типов данных. "
+"Например: *Расскажи о чем тип данных @запись ? Какие есть атрибуты и "
+"логика?*"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:59
+#: ../../introduction/AI_Assistant.rst:77
+#: ../../introduction/AI_Assistant.rst:88
+#: ../../introduction/AI_Assistant.rst:96
+#: ../../introduction/AI_Assistant.rst:114
+msgid "**Запросы:**"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:61
+msgid "*Создай тип данных для согласования заявки на отпуск у руководителя*"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:62
+msgid ""
+"*Добавь поле \"количество дней отпуска\", пусть рассчитывается "
+"автоматически*"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:63
+msgid ""
+"*Какие атрибуты есть в типе данных @запись? Как рассчитывается атрибут "
+"количество дней отпуска?*"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:66
+msgid "Анализ и сравнение документов"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:68
+msgid "**Анализ документов** на основе их атрибутов и содержимого"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:69
+msgid ""
+"**Сравнение версий** документов, выделение изменений и юридических "
+"аспектов"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:70
+msgid "**Ответы на вопросы** по документам"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:71
+msgid ""
+"Возможность **указывать в контекст** несколько документов с одним типом "
+"данных"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:79
+msgid "*1. Проанализируй @запись на соответствие законодательству РФ*"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:80
+msgid "*2. Расскажи кратко, о чем этот договор?*"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:81
+msgid "*3. Есть ли пункты, которые нарушают права сторон?*"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:82
+msgid "*4. Предложи улучшения*"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:90
+msgid ""
+"*В чем разница атрибутов договора @запись и @договор №4? Составь итоговую"
+" таблицу с различиями*"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:98
+msgid "*Какие были изменения в последней версии договора @запись?*"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:99
+msgid "*Сравни версию 1.0 и 2.5 в @запись. Какие были различия?*"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:102
+msgid "Помощник BPMN"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:104
+msgid ""
+"Специализированный помощник для работы с бизнес-процессами в "
+"BPMN-редакторе."
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:106
+msgid "**Генерация BPMN** - процессов из текстового описания"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:107
+msgid "**Редактирование BPMN** с помощью AI"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:108
+msgid "**Контекстная помощь** на основе текущего процесса и типа данных"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:116
+msgid "*Создай процесс согласования отпуска у руководителя на основе типа данных*"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:118
+msgid ""
+"При генерации BPMN-процесса AI-ассистент учитывает выбранный тип данных в"
+" редакторе BPMN для указания ролей, статусов и смысловой нагрузки "
+"элементов процесса."
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:121
+msgid "Контекстная работа"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:122
+msgid ""
+"Чем более детально вы сформируете свой вопрос / требования к генерации, "
+"тем более точный ответ вы получите."
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:125
+msgid "Добавление контекста"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:127
+msgid ""
+"Используйте символ `@` для добавления дополнительного контекста к "
+"запросам:"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:129
+msgid "`@запись` - добавить данные текущей открытой записи"
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:130
+msgid ""
+"`@имя_документа` - найти и добавить конкретный документ. На данный момент"
+" происходит поиск только по типу данных открытого документ. Например, "
+"если у вас открыт Договор, то можно искать договоры через `@договор`, "
+"`@№230` для добавления контекста."
+msgstr ""
+
+#: ../../introduction/AI_Assistant.rst:132
+msgid ""
+"Попробуйте создать :ref:`процесс заявки на закупку "
+"оборудования<sample_request_ai>` с помощью интеллектуального помощника."
+msgstr ""
+

@@ -1,0 +1,714 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Citeck
+# This file is distributed under the same license as the Citeck package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Citeck \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-22 01:00+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../introduction/workspaces.rst:2
+msgid "Рабочие пространства"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:7
+msgid "Содержание"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:9
+msgid ""
+"Для улучшения навигации и работы в Citeck реализовано разделение данных, "
+"пунктов меню и открытых вкладок по **рабочим пространствам (workspace)**."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:11
+msgid ""
+"**Рабочее пространство** - отдельная область в Citeck для совместной "
+"работы пользователей над определенной функциональностью. Например, "
+"пространство «Договоры» и «Доверенности», в котором пользователи, имеющие"
+" к нему доступ, работают с договорами, доверенностями и общесистемными "
+"справочниками. Либо пространство определённого проекта, в котором команда"
+" этого проекта работает с тикетами и запросами на изменение. При этом "
+"команда проекта работает в своем рабочем пространстве и не видит данных "
+"других проектов."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:14
+msgid "**Пользователь:**"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:16
+msgid "может выбирать рабочее пространство из списка тех, к которым имеет доступ:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:22
+msgid ""
+"видит только те пункты меню (левом и верхнем), вкладки (табы) и данные "
+"(объекты типов данных), которые относятся к выбранному рабочему "
+"пространству, например для **Service Desk**:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:28
+msgid ""
+"видит в рабочем пространстве объекты только тех типов данных, которые "
+"были добавлены на это рабочее пространство (а также «общие» типы данных, "
+"которые относятся к глобальному пространству)"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:29
+msgid ""
+"видит в Библиотеке документов рабочего пространства только те файлы и "
+"папки, которые относятся к этому пространству"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:35
+msgid "**Администратор:**"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:37
+msgid ""
+"может управлять рабочими пространствами (создавать, изменять, удалять), "
+"настраивать для них пункты меню и типы данных."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:38
+msgid ""
+"может указывать для типов данных принадлежность к глобальному или "
+"частному рабочему пространству. Данный функционал позволяет настраивать "
+"типы данных, объекты которых будут общими для всех рабочих пространств "
+"(например, общие справочники)"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:39
+msgid ""
+"может добавлять (и убирать) типы данных к рабочему пространству, тем "
+"самым разграничивая объекты типов данных по рабочим пространствам. "
+"Например, при добавлении типа данных «Договор» к рабочим пространствам "
+"«Договоры компании А» и «Договоры компании Б», договоры не будут "
+"пересекаться для этих рабочих пространств."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:41
+msgid ""
+"По умолчанию при развертывании системы создается Глобальное рабочее "
+"пространство, которое выбрано по умолчанию."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:43
+msgid ""
+"Коробочные :ref:`функциональные модули<ecos_modules>` разбиты по рабочим "
+"пространствам для удобства навигации."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:47
+msgid "Выбор рабочего пространства"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:49
+msgid ""
+"В левом верхнем углу доступна кнопка для выбора доступных рабочих "
+"пространств и создания нового:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:55
+msgid ""
+"Указаны самые релевантные **(1)**, остальные рабочие пространства, "
+"которым у вас есть доступ, и публичные, к которым можно присоединиться, "
+"доступны по нажатию на **Посмотреть больше (2)**:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:57
+msgid "**Мои пространства:**"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:63
+msgid "**Публичные пространства:**"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:69
+msgid "Для присоединения к пространству нажмите:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:75
+msgid "Подтвердите выбор:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:81
+msgid "и далее откроется страница с пространством."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:83
+msgid "Общий вид рабочего пространства:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:89
+msgid ""
+"**1** - Переход к домашней странице рабочего пространства. См. ниже о "
+":ref:`настройке домашней страницы<workspace_settings>`."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:91
+msgid "**2** - Разделы рабочего пространства"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:94
+msgid "Доступные действия с рабочими пространствами"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:115
+msgid ""
+"Пользователь не является участником публичного пространства - "
+"**Присоединиться**."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:116
+msgid ""
+"Пользователь является участником публичного пространства, приватного "
+"пространства  -  **Перейти в пространство**, **Выйти из пространства**."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:117
+msgid ""
+"Если текущий пользователь является единственным менеджером публичного или"
+" приватного пространств, то при попытке выйти из пространства "
+"отображается сообщение: **\"Вы не можете покинуть пространство, так как "
+"являетесь единственным менеджером\"**:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:123
+msgid ""
+"Для пользователей с ролью **менеджер** доступна возможность **удалить** "
+"публичное или приватное пространства:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:129
+msgid ""
+"Если пользователь переходит в пространство по прямой ссылке, и он не "
+"является участником данного пространства, то отображается сообщение с "
+"выбором: присоединиться к рабочему пространству или перейти в личное "
+"пространство."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:136
+msgid "Доступные рабочие пространства"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:139
+msgid "Персональное рабочее пространство"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:143
+msgid ""
+"Индивидуальное пространство на платформе предназначено для организации "
+"работы пользователя, управления задачами и документами, а также участия в"
+" бизнес-процессах."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:150
+msgid ""
+"В пространстве можно настроить в :ref:`домашнюю страницу и "
+"меню<workspace_settings>`."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:153
+msgid "Задачи"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:161
+msgid "Раздел **«Задачи»** содержит"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:163
+msgid ""
+"**Текущие задачи** - все задачи, которые могут быть выполнены "
+"пользователем, как единственным исполнителем, так и в составе групп."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:164
+msgid "**Завершенные задачи** - выполненные пользователем задачи"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:165
+msgid ""
+"**Задачи подчиненных** - задачи пользователей, у которых текущий "
+"пользователь указан в их профилях как Линейный руководитель."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:168
+msgid "Библиотека документов"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:172
+msgid ""
+"Представляет собой иерархический интерфейс для работы с папками и "
+"документами."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:178
+msgid ""
+"В библиотеке загрузка файлов и папок доступна как по кнопке, так и "
+"перетаскиванием."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:186
+msgid ""
+"По кнопке **+** доступно как добавление файлов и папок, так и создание "
+"документов:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:192
+msgid "Выберите тип документа, укажите название:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:198
+msgid ""
+"В OnlyOffice создается новый файл, в котором можно вести совместную "
+"работу:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:204
+msgid "Над документом могут работать несколько пользователей одновременно."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:206
+msgid "Подробно о функционале см. :ref:`Библиотека документов<document_library>`"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:209
+msgid "Канбан задачи"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:213
+msgid ""
+"**Канбан** – наглядное представление персональных задач в виде "
+"виртуальной доски."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:219
+msgid ""
+"В колонках доски отображаются статусы задач, на самой доске - задачи "
+"распределены по статусам. По клику на наименование задачи можно перейти в"
+" карточку задачи."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:221
+msgid ""
+"Переход между статусами может осуществляться через канбан доску "
+"перемещением карточки по столбцам."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:227
+msgid ""
+"Для создания задачи нажмите **+**. Форма создания задачи аналогична форме"
+" создания поручения, но в ней отсутствуют поля  **Исполнитель** и "
+"**Проверяющий**."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:233
+msgid "См. подробно о :ref:`Поручениях<ecos-assignments>`."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:237
+msgid "Совместное рабочее пространство"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:245
+msgid ""
+"Совместное рабочее пространство предназначено для коллективной работы "
+"команд, отделов или проектных групп. Оно объединяет участников, "
+"документы, задачи и бизнес-процессы в едином интерфейсе."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:247
+msgid ""
+"Пользователь с ролью **менеджер** может настроить в :ref:`домашнюю "
+"страницу и меню<workspace_settings>`."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:249
+msgid ""
+"В **библиотеке документов** загруженные файлы и созданные документы "
+"доступны всем участникам пространства:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:255
+msgid ""
+"На **доске поручений** можно создавать поручения на участников "
+"пространства:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:261
+msgid "Функционал :ref:`поручений<ecos-assignments>` доступен в полном объеме."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:263
+msgid "Cм. ниже о :ref:`создании рабочего пространства<new_workspace>`"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:267
+msgid "Пример рабочего пространства, к которому у пользователя есть доступ"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:273
+msgid ""
+"Функциональные модули распределены по рабочим пространствам. См. "
+":ref:`подробно<ecos_modules>`. Работа с объектами такого рабочего "
+"пространства аналогична работе в функциональном модуле."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:277
+msgid ""
+"Блок с :ref:`задачами<tasks_spaces>` пользователя доступен во всех "
+"рабочих пространствах, кроме \"Справочники\" и \"Корпоративный портал\"."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:281
+msgid "Настройки рабочего пространства"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:286
+msgid "Настройка домашней страницы"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:288
+msgid ""
+"При открытии рабочего пространства в зависимости от его типа открывается "
+"дашборд:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:290
+msgid "рабочее пространство по умолчанию- **user-dashboard**;"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:291
+msgid "персональное рабочее пространство - **personal-ws-dashboard-default**;"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:292
+msgid "неперсональное рабочее пространство - **ws-dashboard-default**"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:294
+msgid ""
+"Для настройки дашборда рабочего пространства выберите рабочее "
+"пространство: персональное или пространство, в котором вы **менеджер**. "
+"Перейдите в **настройки** и выберите **«Настроить страницу»**:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:300
+msgid ""
+"Откроется страница настроек домашней страницы, где можно изменить схему "
+"расположения и набор отображаемых виджетов."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:302
+msgid ""
+"В блоке **«Колонки»** можно выбрать количество и расположение колонок на "
+"домашней странице. Для выбора необходимо кликнуть по понравившейся схеме."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:304
+msgid ""
+"В блоке **«Виджеты»** можно перетащить необходимые виджеты в колонки "
+"домашней страницы."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:306
+msgid "Для сохранения изменений нажмите **«Применить»** внизу страницы."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:313
+msgid "Настройка меню"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:315
+msgid ""
+"Выберите рабочее пространство: персональное или пространство, в котором "
+"вы **менеджер**, перейдите в **настройки** и выберите **«Настроить "
+"меню»**:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:321
+msgid "Доступно как добавление раздела **(1)**, так и элементов в раздел **(2)**:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:327
+msgid "См. подробно о каждом :ref:`добавляемом элементе<menu_element_types>`"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:329
+msgid "Например, добавим в меню журнал «Договоры»:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:335
+msgid ""
+"Обновленное меню станет доступно для всех пользователей рабочего "
+"пространства."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:342
+msgid "Создание и редактирование рабочего пространства"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:347
+msgid "Создание рабочего пространства"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:349
+msgid "Нажмите **«Добавить пространство»**:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:355
+msgid "Вкладка **«Основное»**:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:367 ../../introduction/workspaces.rst:415
+msgid "п/п"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:368 ../../introduction/workspaces.rst:416
+msgid "Наименование"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:369 ../../introduction/workspaces.rst:417
+msgid "Описание"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:370 ../../introduction/workspaces.rst:418
+msgid "Пример заполнения"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:371 ../../introduction/workspaces.rst:419
+msgid "1"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:372
+msgid "**Id**"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:373
+msgid "уникальный идентификатор рабочего пространства"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:374
+msgid "doc_prep"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:375 ../../introduction/workspaces.rst:424
+msgid "2"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:376
+msgid "**Имя**"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:377
+msgid "локализованное название рабочего пространства"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:378
+msgid "Подготовка документов"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:379 ../../introduction/workspaces.rst:429
+msgid "3"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:380
+msgid "**Видимость**"
+msgstr ""
+
+#: ../../introduction/workspaces.rst
+msgid "Публичное - любые пользователи смогут присоединиться к пространству"
+msgstr ""
+
+#: ../../introduction/workspaces.rst
+msgid "Приватное - пространство доступно только выбранным пользователям"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:383
+msgid "Приватное"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:384
+msgid "4"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:385
+msgid "**Описание**"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:386
+msgid "локализованное описание рабочего пространства"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:387
+msgid "Подготовка документов для проектов"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:388
+msgid "5"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:389
+msgid "**Участники рабочего пространства**"
+msgstr ""
+
+#: ../../introduction/workspaces.rst
+msgid ""
+"выбор из оргструктуры участников и предоставление им прав: "
+"**пользователя** или **менеджера** (с возможностью управления рабочим "
+"пространством)."
+msgstr ""
+
+#: ../../introduction/workspaces.rst
+msgid ""
+"Пользователь, создающий пространство, получает роль **«Менеджер»** и "
+"будет указан как создатель."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:398
+msgid "6"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:399
+msgid "**Шаблон**"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:400
+msgid ""
+"выбор :ref:`шаблона<template_workspace>` на основании которого, будет "
+"создано рабочее пространство"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:403
+msgid "Вкладка **«Дополнительно»**:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:420
+msgid "**Адрес домашней страниц**"
+msgstr ""
+
+#: ../../introduction/workspaces.rst
+msgid ""
+"адрес, который будет открываться при переходе в рабочее пространство и "
+"при нажатии на логотип в меню."
+msgstr ""
+
+#: ../../introduction/workspaces.rst
+msgid ""
+"Если для рабочего пространства домашняя страница не задана, то по "
+"умолчанию открывается **/v2/dashboard**."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:425
+msgid "**Вложенные рабочие области**"
+msgstr ""
+
+#: ../../introduction/workspaces.rst
+msgid "выбор вложенных рабочих областей."
+msgstr ""
+
+#: ../../introduction/workspaces.rst
+msgid ""
+"В рабочем пространстве, который содержит вложенные рабочие области, во "
+"всех журналах будут отображаться записи из текущего рабочего пространства"
+" и всех вложенных. Во вложенные можно добавлять только те разделы, "
+"которые сами не содержат вложенные. Во вложенные к рабочему пространству "
+"нельзя добавлять его самого."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:430
+msgid "**Иконка**"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:431
+msgid "выбор иконки рабочего пространства"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:434
+msgid ""
+"Созданное пространство выглядит аналогично персональному пространству и "
+"доступно для пользователей, которые были выбраны как участники рабочего "
+"пространства."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:440
+msgid "Пользователи могут добавлять и редактировать файлы, ставить поручения."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:443
+msgid "Редактирование рабочего пространства"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:445
+msgid ""
+"Редактирование рабочего пространства доступно пользователю с правами "
+"**«Менеджер»**:"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:451
+msgid ""
+"Участникам рабочего пространства можно изменить роль, добавить участников"
+" в пространство, изменить описание и видимость."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:454
+msgid "Уведомления"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:456
+msgid ""
+"Пользователи получают уведомления на электронную почту, если были "
+"добавлены или удалены из рабочего пространства."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:459
+msgid "Рабочее пространство администратора"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:465
+msgid "Пространство содержит пункты для конфигурации и настройки системы."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:473
+msgid ""
+"Конфигурация рабочего пространства, которое должно открываться по "
+"умолчанию"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:475
+msgid ""
+"Для пользователей по умолчанию открывается :ref:`персональное рабочее "
+"пространство<ws_personal>`. Но если есть потребность указать какое-то "
+"конкретное рабочее пространство (например, чтобы пользователи по "
+"умолчанию попадали на корпоративный портал), то это можно сделать через "
+"настройку **default-workspace**."
+msgstr ""
+
+#: ../../introduction/workspaces.rst:477
+msgid ""
+"Перейдите в журнал :ref:`«Конфигурация ECOS»<configuration_admin>`. "
+"Журнал доступен по адресу: ``v2/admin?journalId=ecos-"
+"configs&type=JOURNAL``"
+msgstr ""
+
+#: ../../introduction/workspaces.rst:483
+msgid ""
+"Укажите **id** рабочего пространства, которое должно открываться по "
+"умолчанию:"
+msgstr ""
+

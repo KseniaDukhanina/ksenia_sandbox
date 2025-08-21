@@ -1,0 +1,514 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Citeck
+# This file is distributed under the same license as the Citeck package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Citeck \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-22 01:00+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../introduction/modules.rst:2
+msgid "Модули и микросервисы, доступные в Community, Enterprise версиях"
+msgstr ""
+
+#: ../../introduction/modules.rst:5
+msgid "Содержание"
+msgstr ""
+
+#: ../../introduction/modules.rst:8
+msgid "Модули"
+msgstr ""
+
+#: ../../introduction/modules.rst:15 ../../introduction/modules.rst:253
+msgid "Название"
+msgstr ""
+
+#: ../../introduction/modules.rst:16 ../../introduction/modules.rst:254
+#: ../../introduction/modules.rst:434
+msgid "Описание"
+msgstr ""
+
+#: ../../introduction/modules.rst:17 ../../introduction/modules.rst:255
+#: ../../introduction/modules.rst:435
+msgid "Community"
+msgstr ""
+
+#: ../../introduction/modules.rst:18 ../../introduction/modules.rst:256
+#: ../../introduction/modules.rst:436
+msgid "Enterprise"
+msgstr ""
+
+#: ../../introduction/modules.rst:20
+msgid ":ref:`ОРД <ecos-order-ORD>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:21
+msgid ""
+"Автоматизация процесса работы с организационно-распорядительными "
+"документами: приказами, распоряжениями, нормативными актами, служебными "
+"записками и т.д."
+msgstr ""
+
+#: ../../introduction/modules.rst:34
+msgid ":ref:`Поручения<ecos-assignments>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:35
+msgid ""
+"Постановка поручений на исполнение и проверки результатов их исполнения "
+"при необходимости."
+msgstr ""
+
+#: ../../introduction/modules.rst:48
+msgid ":ref:`Договоры<ecos-contract>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:49
+msgid ""
+"Автоматизация процесса учета и согласования бумажных договоров, и "
+"документов, связанных с договорами."
+msgstr ""
+
+#: ../../introduction/modules.rst:62
+msgid ":ref:`Корреспонденция. Входящие документы <ecos-indoc>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:63
+msgid ""
+"Автоматизация процесса работы с входящими документами: регистрация, "
+"отправка на рассмотрение и исполнение."
+msgstr ""
+
+#: ../../introduction/modules.rst:76
+msgid ":ref:`Корреспонденция. Исходящие документы <ecos-outdoc>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:77
+msgid ""
+"Автоматизация процесса работы с исходящими документами: согласование, "
+"подписание, регистрация, отправка."
+msgstr ""
+
+#: ../../introduction/modules.rst:90
+msgid ":ref:`Доверенности <ecos-poa>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:91
+msgid "Автоматизация процесса выдачи бумажных доверенностей."
+msgstr ""
+
+#: ../../introduction/modules.rst:105
+msgid ":ref:`CRM<ecos-crm>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:106
+msgid "Поддержка процесса маркетинга, продаж и обслуживания клиентов компании"
+msgstr ""
+
+#: ../../introduction/modules.rst:119
+msgid ":ref:`Совещания<ecos-meetings>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:120
+msgid "Автоматизация процесса планирования и проведения совещаний."
+msgstr ""
+
+#: ../../introduction/modules.rst:133
+msgid ":ref:`Офферы<ecos-offer>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:134
+msgid "Автоматизация процесса подбора персонала по заявкам подразделений."
+msgstr ""
+
+#: ../../introduction/modules.rst:147
+msgid ":ref:`Заявления на отпуск<ecos-vacation>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:148
+msgid ""
+"Модуль позволяет организовать работу с заявлениями на отпуск, "
+"поступающими от сотрудников."
+msgstr ""
+
+#: ../../introduction/modules.rst:161
+msgid ":ref:`Пропуска<ecos-order-pass>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:162
+msgid "Автоматизация процесса принятия решения по выдаче пропуска."
+msgstr ""
+
+#: ../../introduction/modules.rst:175
+msgid ":ref:`Service desk<ecos-service-desk>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:176
+msgid "Автоматизация работы техподдержки с клиентскими обращениями (заявками)."
+msgstr ""
+
+#: ../../introduction/modules.rst:189
+msgid ":ref:`Учет времени<ecos-worklog>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:190
+msgid ""
+"Учет времени, затраченного сотрудником на работу по конкретной задаче, "
+"документу непосредственно из карточки задачи, документа."
+msgstr ""
+
+#: ../../introduction/modules.rst:203
+msgid ":ref:`Портал технической поддержки<portal_sd>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:204
+msgid ""
+"Веб-интерфейсу для внешних заказчиков для регистрации заявок, контроля их"
+" выполнения, обмена комментариями и файлами."
+msgstr ""
+
+#: ../../introduction/modules.rst:217
+msgid ":ref:`Релизы<ecos-releases>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:218
+msgid ""
+"Систематизация этапов работ, связанных с релизами программного "
+"обеспечения или продуктов компании, ее подразделений."
+msgstr ""
+
+#: ../../introduction/modules.rst:231
+msgid ":ref:`Project tracker<ecos_ept>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:232
+msgid ""
+"Инструмент для управления проектами, организации рабочих процессов "
+"команд, мониторинга задач."
+msgstr ""
+
+#: ../../introduction/modules.rst:246
+msgid "Микросервисы"
+msgstr ""
+
+#: ../../introduction/modules.rst:257
+msgid "ecos-gateway"
+msgstr ""
+
+#: ../../introduction/modules.rst:258
+msgid "Микросервис реализует API шлюз взаимодействия с остальными микросервисами"
+msgstr ""
+
+#: ../../introduction/modules.rst:270
+msgid "ecos-uiserv"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "Микросервис UI конфигураций,"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid ""
+"Предоставляет элементы UI и хранящий их настройки (меню, журналы, UI "
+"конфиги, формы, настройки журналов, дашборды)."
+msgstr ""
+
+#: ../../introduction/modules.rst:285
+msgid "ecos-model"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "Микросервис моделей"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "Отвечает за информацию о типах, шаблонах нумерации и о матрицах прав."
+msgstr ""
+
+#: ../../introduction/modules.rst:299
+msgid "ecos-history"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "Микросервис истории"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "Подписан на события в системе и сохраняет информацию о них в БД."
+msgstr ""
+
+#: ../../introduction/modules.rst:314
+msgid ":ref:`ecos-apps<apps_service>`"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "Микросервис приложений Citeck"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "Отвечает за доставку приложений Citeck к целевым сервисам."
+msgstr ""
+
+#: ../../introduction/modules.rst:329
+msgid ":ref:`ecos-notifications<notifications>`"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "Микросервис нотификаций"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "Отвечает за отправку уведомлений (email, push-нотификации и др.)."
+msgstr ""
+
+#: ../../introduction/modules.rst:344
+msgid ":ref:`ecos-process<process>`"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "Микросервис процессов."
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "Отвечает за процессы кейс-менеджмента и BPMN."
+msgstr ""
+
+#: ../../introduction/modules.rst:359
+msgid ":ref:`ecos-integrations<integration>`"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid ""
+"Микросервис для интеграции с внешними системами (SAP, 1C, Rabbit MQ и "
+"тд.)."
+msgstr ""
+
+#: ../../introduction/modules.rst:373
+msgid ":ref:`ecos-transformations<transformation>`"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid ""
+"Микросервис для преобразования (трансформации) контента, генерации "
+"документов по шаблонам, которые можно подгрузить с проектом или добавить "
+"через инструменты администратора, формирования PDF-файла со штрихкодом, "
+"конвертации всех офисных форматов в PDF."
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "- :ref:`Редактирование документа в Onlyoffice<edit_only_office>`"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "- :ref:`Генерация документа по шаблону<doc_templates>`"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "- :ref:`Сравнение версий<widget_versions_journal>`"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "- :ref:`Генерация штрих-кода<widget_barcode>`"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid "- :ref:`Скачивание pdf документа с штрих кодом<barcode_pdf>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:382
+msgid ":ref:`ecos-content<content_service>`"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid ""
+"Микросервис для обеспечения хранения файлов в нескольких внешних файловых"
+" хранилищах."
+msgstr ""
+
+#: ../../introduction/modules.rst:396
+msgid ":ref:`ecos-edi <ecos-edi>`"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid ""
+"Микросервис с вынесенной логикой ЮЗДО из микросервиса "
+":ref:`интеграции<integration>`."
+msgstr ""
+
+#: ../../introduction/modules.rst:410
+msgid "ecos-ecom"
+msgstr ""
+
+#: ../../introduction/modules.rst
+msgid ""
+"Микросервис представляет собой решение для создания и управления "
+"email-рассылками, чат-ботами внутри платформы."
+msgstr ""
+
+#: ../../introduction/modules.rst:426
+msgid "Отдельные функциональности"
+msgstr ""
+
+#: ../../introduction/modules.rst:433
+msgid "Функциональность"
+msgstr ""
+
+#: ../../introduction/modules.rst:437
+msgid ":ref:`Виджет «Статистика процесса»<widget_process_statistics>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:438
+msgid ""
+"Виджет визуализирует статистику по бизнес-процессу с отображением "
+"тепловой карты (heatmap)."
+msgstr ""
+
+#: ../../introduction/modules.rst:451
+msgid ":ref:`Виджет «Стадии»<widget_stages>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:452
+msgid "Виджет визуализирует прохождение :ref:`стадий<stages>` документа."
+msgstr ""
+
+#: ../../introduction/modules.rst:465
+msgid ":ref:`Виджет «Канбан»<widget_kanban>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:466
+msgid ""
+"Виджет добавляет в карточку :ref:`канбан доску<kanban_board>` с "
+"настраиваемым журналом, связанным атрибутам и шаблонами для удобства "
+"пользователя и быстрым взаимодействием со статусами через карточку."
+msgstr ""
+
+#: ../../introduction/modules.rst:479
+msgid ":ref:`Виджет «Графическая статистика»<widget_graphic_statistics>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:480
+msgid ""
+"Виджет позволяет пользователям наглядно представлять и анализировать "
+"данные. Виджет поддерживает различные типы графиков: линейные, "
+"столбчатые, круговые."
+msgstr ""
+
+#: ../../introduction/modules.rst:492
+msgid ":ref:`Виджет «Активности»<widget_activities>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:493
+msgid ""
+"Виджет помогает планировать и организовывать работу по кейсу. Задачу: "
+"телефонный звонок, встречу, письмо, поручение можно запланировать из "
+"карточки кейса и просмотреть в календаре."
+msgstr ""
+
+#: ../../introduction/modules.rst:506
+msgid ":ref:`Делегирование<delegation>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:507
+msgid "Настройка передача своих задач или функций другим сотрудникам."
+msgstr ""
+
+#: ../../introduction/modules.rst:520
+msgid ":ref:`Редактирование матрицы прав<permissions>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:521
+msgid "Настройка прав для типа данных."
+msgstr ""
+
+#: ../../introduction/modules.rst:534
+msgid ":ref:`Синхронизация пользователей из LDAP<LDAP_sync>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:535
+msgid ""
+"Можно создать несколько конфигураций синхронизации из LDAP, указав "
+"различные настройки - например, сервера, домены, фильтры и т.д."
+msgstr ""
+
+#: ../../introduction/modules.rst:548
+msgid ":ref:`Аудит<ecos_audit>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:549
+msgid ""
+"Аудит (журнал событий) предназначен для ведения лог-файлов, в которые "
+"записываются события системы."
+msgstr ""
+
+#: ../../introduction/modules.rst:562
+msgid ":ref:`Lazy approval<user_task_lazy_approval>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:563
+msgid ""
+"Функциональность, позволяющая принимать решения из электронной почты, не "
+"заходя в Citeck."
+msgstr ""
+
+#: ../../introduction/modules.rst:576
+msgid ":ref:`Групповые действия<group_actions>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:577
+msgid "Позволяют обработать большое количество элементов на сервере."
+msgstr ""
+
+#: ../../introduction/modules.rst:590
+msgid ":ref:`Рабочий календарь<business-schedule>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:591
+msgid ""
+"Функциональность для учета нерабочих, праздничных дней сотрудников, "
+"которые позволяют более гибко настраивать рабочий процесс сотрудников в "
+"различных модулях системы."
+msgstr ""
+
+#: ../../introduction/modules.rst:604
+msgid ":ref:`KPI<bpmn_kpi>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:605
+msgid ""
+"Настройка норм времени на выполнение задач, смену статусов, выполнение "
+"условий (событие, обновление атрибутов)."
+msgstr ""
+
+#: ../../introduction/modules.rst:618
+msgid ":ref:`ECOS KeyCloak Extension<keycloak_extension>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:619
+msgid ""
+"Возможность создания или формирование событий Citeck при возникновении "
+"пользовательских и админских событий Keycloak"
+msgstr ""
+
+#: ../../introduction/modules.rst:631
+msgid ":ref:`Интеграция с Git<git_integration>`"
+msgstr ""
+
+#: ../../introduction/modules.rst:632
+msgid ""
+"Возможность связать Citeck приложение с Git репозиторием для загрузки "
+"измененных артефактов."
+msgstr ""
+

@@ -21,7 +21,6 @@ formats:
   - pdf
   
 # Language settings
-default_version: latest
 languages:
   - ru
   - en

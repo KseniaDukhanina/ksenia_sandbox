@@ -1,10 +1,5 @@
 version: 2
 
-# Build PDF & ePub
-formats:
-  - htmlzip
-  - pdf
-
 build:
   os: ubuntu-22.04
   tools:
@@ -15,13 +10,18 @@ build:
 
 sphinx:
   configuration: docs/conf.py
-  # Default lang
-  default_language: ru
-  # List of langs to deploy
-  languages:
-    - en
 
 python:
    install:
    - requirements: docs/requirements.txt
    
+# Build PDF & ePub
+formats:
+  - htmlzip
+  - pdf
+  
+# Language settings
+default_version: latest
+languages:
+  - ru
+  - en

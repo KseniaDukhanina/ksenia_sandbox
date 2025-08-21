@@ -11,16 +11,24 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
+
+# Define the canonical URL if you are using a custom domain on Read the Docs
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
+
+# Tell Jinja2 templates the build is running on Read the Docs
+if os.environ.get("READTHEDOCS", "") == "True":
+    if "html_context" not in globals():
+        html_context = {}
+    html_context["READTHEDOCS"] = True
+
 import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-
-
 # -- Project information -----------------------------------------------------
 
-project = 'Ksenia'
-copyright = '2023, Ksenia'
-author = 'Ksenia'
+project = 'Citeck'
+copyright = '2025, Citeck'
+author = 'Citeck'
 
 # The full version, including alpha/beta/rc tags
 release = 'Ver. 4'
@@ -33,6 +41,10 @@ release = 'Ver. 4'
 # ones.
 extensions = [
  'sphinx.ext.mathjax',
+ 'sphinx_search.extension',
+ 'sphinx_copybutton',
+ 'sphinx_tabs.tabs',
+ 'sphinx_rtd_theme'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -66,12 +78,34 @@ source_suffix = '.rst'
 # a list of builtin themes.
 #
 # html_theme = 'sphinx_material'
-html_theme = 'sphinx_rtd_theme'
+html_theme = "sphinx_rtd_theme"
+
+# -- sphinx_rtd_theme Theme options -----------------------------------------------------
+
+html_theme_options = {
+    'flyout_display': 'attached',
+    'style_nav_header_background': 'rgb(75, 117, 183)',
+    'logo_only': True
+
+}
+
+# The name of an image file (relative to this directory) to place at the top
+# of the sidebar.
+html_logo = '_static/logo_citeck_w.svg'
+
+# The name of an image file (within the static path) to use as favicon of the
+# docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
+# pixels large.
+html_favicon = '_static/favicon_32.ico'
+
+# The name of the Pygments (syntax highlighting) style to use.
+
+pygments_style = 'vs'
 
 # html_theme_path = ['.']
 
  # Set link name generated in the top bar.
-html_title = 'ECOS'
+html_title = 'Citeck'
 
 navigation_depth = -1
 
@@ -82,3 +116,4 @@ html_static_path = ['_static']
 
 def setup(app):
   app.add_css_file( "css/main_theme.css" )
+

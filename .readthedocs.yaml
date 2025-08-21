@@ -8,10 +8,6 @@ build:
      # nodejs: "18"
      # rust: "1.64"
 
-languages:
-  - ru
-  - en
-
 sphinx:
   configuration: docs/conf.py
 

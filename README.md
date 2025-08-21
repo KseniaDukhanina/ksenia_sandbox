@@ -1,2 +1,1 @@
-# ecos-docs
-Citeck ECOS documentation
+It's a sandbox to try multilang documentation

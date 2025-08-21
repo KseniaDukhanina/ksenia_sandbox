@@ -8,6 +8,10 @@ build:
      # nodejs: "18"
      # rust: "1.64"
 
+languages:
+  - ru
+  - en
+
 sphinx:
   configuration: docs/conf.py
 
@@ -20,7 +24,4 @@ formats:
   - htmlzip
   - pdf
   
-# Language settings
-languages:
-  - ru
-  - en
+default_version: latest

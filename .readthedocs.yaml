@@ -16,6 +16,6 @@ python:
    - requirements: docs/requirements.txt
    
 # Build PDF & ePub
-formats:
-  - htmlzip
-  - pdf
+#formats:
+#  - htmlzip
+#  - pdf

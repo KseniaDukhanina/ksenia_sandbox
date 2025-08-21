@@ -19,5 +19,3 @@ python:
 formats:
   - htmlzip
   - pdf
-  
-default_version: latest

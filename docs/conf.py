@@ -66,9 +66,6 @@ gettext_compact = False
 html_context = {
     'current_language': language,
     'languages': ['ru', 'en'],  # ЯВНО перечислите языки
-    'current_version': version,
-    'versions': ['latest'],
-    'available_versions': ['latest'],
     'display_github': True,
 }
 

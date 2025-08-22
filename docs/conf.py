@@ -64,8 +64,12 @@ gettext_compact = False
 # gettext_uuid = True   
 
 html_context = {
-    # ... other params...
-    'languages': [ ('en', 'English'), ('ru', 'Russian') ], # Пример для языкового селектора
+    'current_language': language,
+    'languages': ['ru', 'en'],  # ЯВНО перечислите языки
+    'current_version': version,
+    'versions': ['latest'],
+    'available_versions': ['latest'],
+    'display_github': True,
 }
 
 # List of patterns, relative to source directory, that match files and

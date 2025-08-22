@@ -14,6 +14,17 @@ sphinx:
 python:
    install:
    - requirements: docs/requirements.txt
+
+# Явно укажите дополнительные сборки для языков
+build:
+  jobs:
+    pre_build:
+      - echo "Building multilingual documentation"
+    
+    # Сборка для каждого языка
+    extra_builds:
+      - name: "Build English version"
+        command: sphinx-build -b html -D language=en docs/ _build/en
    
 # Build PDF & ePub
 #formats:

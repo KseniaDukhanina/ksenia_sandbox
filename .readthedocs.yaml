@@ -19,3 +19,9 @@ python:
 #formats:
 #  - htmlzip
 #  - pdf
+
+  
+build:
+  jobs:
+    post_build:
+      - sphinx-intl build --locale-dir docs/locale/

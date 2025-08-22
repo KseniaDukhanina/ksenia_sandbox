@@ -64,7 +64,7 @@ gettext_compact = False
 # gettext_uuid = True   
 
 html_context = {
-    'current_language': language,
+    'current_language': ru,
     'languages': ['ru', 'en'],  # ЯВНО перечислите языки
     'display_github': True,
 }

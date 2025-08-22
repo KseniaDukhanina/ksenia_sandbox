@@ -19,8 +19,3 @@ python:
 #formats:
 #  - htmlzip
 #  - pdf
-
-build:
-  jobs:
-    post_build:
-      - sphinx-build -b html -D language=en docs/ _build/en

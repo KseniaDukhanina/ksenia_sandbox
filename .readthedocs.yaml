@@ -10,6 +10,10 @@ build:
 
 sphinx:
   configuration: docs/conf.py
+  default_language: ru
+  languages:
+    - en
+    - ru
 
 python:
    install:

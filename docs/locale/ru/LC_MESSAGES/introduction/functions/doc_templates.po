@@ -1,0 +1,333 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Citeck
+# This file is distributed under the same license as the Citeck package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Citeck \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-25 20:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../introduction/functions/doc_templates.rst:2
+msgid "Шаблоны документов"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:8
+msgid "Доступно только в Enterprise версии."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:11
+msgid "Contents"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:13
+msgid ""
+"Настройка расположена в журнале **\"Шаблоны документов\" (Раздел "
+"администратора - Трансформации)** ``v2/admin?journalId=document-"
+"templates&type=JOURNAL``"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:25
+msgid "Необходимо заполнить следующие поля:"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:32
+msgid "Поле"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:33
+msgid "Описание"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:34
+msgid "**ID**"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:35
+msgid "Уникальный идентификатор шаблона в системе"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:36
+msgid "**Имя**"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:37
+msgid "Имя шаблона"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:38
+msgid "**Движок**"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst
+msgid ""
+"Наименования движка, который будет обрабатывать заполнение шаблона - "
+"**Freemarker**"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:40
+msgid "**Шаблоны**"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst
+msgid "Загрузите файл шаблона."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst
+msgid ""
+"Шаблон должен быть добавлен в zip архиве. (Так как именно так шаблоны "
+"хранятся в базе)"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst
+msgid ""
+"В архиве должен быть файл с шаблоном в формате docx или ftl. Строгих "
+"правил к его наименованию нет, но желательно придерживаться общей "
+"концепции и называть файл как id шаблона."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst
+msgid ""
+"Если шаблонов несколько (разделены по локализации), то при названии "
+"файлов в конце нужно приписывать суффиксы _ru, _en и т.п."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:45
+msgid "**Модель**"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst
+msgid ""
+"Представляет собой мапинг ключ-значение, где в качестве ключа "
+"используется атрибут из шаблона, а в качестве значения атрибут, который "
+"берется из карточки."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst
+msgid "См. ниже"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:48
+msgid "**Вычисляемые атрибуты**"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst
+msgid "Лист объектов с информацией о вычисляемых атрибутах."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst
+msgid "Подробнее тут :ref:`Вычисляемые атрибуты для шаблонов<calculated_attr>`"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:51
+msgid "**Теги**"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst
+msgid "Список вспомогательных меток для удобного поиска"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:56
+msgid "Заполнение модели"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:58
+msgid ""
+"**Ключ** -  атрибут, который используется в шаблоне, **значение** -  "
+"атрибут, который берется из заполняемой карточки."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:60
+msgid ""
+"Указываются как атрибуты из самого типа данных, так и атрибуты, которые "
+"являются ассоциацией. Например:"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:62
+msgid ""
+"В типе данных **Договор** есть атрибут **Контрагент (counterparty)**. И, "
+"например, чтобы получить ИНН контрагента, необходимо указать "
+"**counterparty.inn**."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:64
+msgid ""
+"В типе данных **Договор** есть атрибут **Юридическое лицо "
+"(legalEntity)**. И, например, чтобы получить полное наименование "
+"юридического лица, необходимо указать "
+"**legalEntity.fullOrganizationName**."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:66
+msgid "Пример заполненной модели:"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:74
+msgid "Заполнение шаблона документа"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:76
+msgid ""
+"Используется `freemarker "
+"<https://freemarker.apache.org/docs/dgui_template.html>`_."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:78
+msgid "Синтаксис его следующий:"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:80
+#, python-brace-format
+msgid ""
+"**${…}** в шаблоне будет заменено в сгенерированном выводе фактическим "
+"значением выражения внутри фигурных скобок."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:81
+msgid ""
+"теги FTL похожи на теги HTML (но содержат # или @ ), и FreeMarker "
+"интерпретирует их."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:82
+msgid "комментарии в FreeMarker начинаются с **<#– и заканчиваются -->**"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:83
+msgid ""
+"кавычки вида ``«пример»`` не распознаются. Необходимо ставить кавычки "
+"следующего вида ``\"пример\"``."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:85
+msgid "Например:"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:87
+msgid "вывод переменной:"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:89
+#, python-brace-format
+msgid "``${contract}``"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:91
+msgid ""
+"вывод переменных с проверкой на null - если возвращаемое значение «пусто»"
+" (null) - выводится то, что указано между ``\" \"``.  В данном случае "
+"пустое поле, которое можно заполнить вручную позднее:"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:93
+msgid "``${counterpartyInn!\"\"}``"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:95
+msgid ""
+"конструкция «если, то .., иначе» - если Вид контрагента - ИП, то "
+"выводится ОГРНИП, если ЮЛ - то ОГРН:"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:97
+msgid ""
+"``[#if counterpartyKind == \"individualEntrepreneur\"]ОГРНИП: "
+"${psrnsp}[#else] ОГРН: ${counterpartyOgrn!\"\"}[/#if]``"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:99
+msgid "системный атрибут дата в формате дд.мм.гггг:"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:101
+msgid "``date | fmt(\"dd.MM.yyyy\")``"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:103
+msgid "заголовок документа :ref:`системный атрибут<system_attributes>` :"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:105
+msgid "``.disp``"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:124
+msgid ""
+"Добавьте шаблон в zip архив и прикрепите его в карточку шаблона "
+"документа. См. выше."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:127
+msgid "Настройка генерации контента из шаблона"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:129
+msgid "Для автоматической генерации контента из шаблона в типе данных необходимо:"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:131
+msgid ""
+"В тип данных добавить :ref:`аспект <aspects_user>` **Шаблонизируемый "
+"контент**"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:137
+msgid "В конфигурации аспекта выбрать шаблон:"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:143
+msgid "Далее на форме необходимо добавить элемент **чекбокс**:"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:149
+msgid "В **Имя свойства** укажмте **templated-content:autoGenerate**."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:151
+msgid ""
+"При заполнении полей карточки при выставленном чекбоксе по данным формы "
+"будет заполняться шаблон."
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:154
+msgid "Действие сгенерировать и скачать документ"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:156
+msgid "Далее настройте :ref:`действие<download_by_template>`"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:160
+msgid "См. больше :ref:`о миросервисе трансформации<transformation>`"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:163
+msgid "Пример использования"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:165
+msgid ""
+"В модуле :ref:`Договоры<ecos-contract>` при выставленном чекбоксе "
+"**«Сгенерировать из шаблона»**:"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:171
+msgid "файл-вложение будет сгенерирован по шаблону на основании введенных данных:"
+msgstr ""
+
+#: ../../introduction/functions/doc_templates.rst:177
+msgid "Так же файл будет доступен для предпросмотра:"
+msgstr ""
+

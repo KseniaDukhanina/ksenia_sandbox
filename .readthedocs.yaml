@@ -8,8 +8,13 @@ build:
      # nodejs: "18"
      # rust: "1.64"
 
+
 sphinx:
   configuration: docs/conf.py
+  # НАСТРОЙКИ ЯЗЫКОВ - САМОЕ ВАЖНОЕ!
+  default_language: ru           # Язык по умолчанию
+  languages:                     # Все языки для сборки
+    - en                         # Английский
 
 python:
    install:

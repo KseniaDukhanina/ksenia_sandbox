@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../index.rst:-1
 msgid "text/html; charset=utf-8"
-msgstr ""
+msgstr "text/html; charset=utf-8"
 
 #: ../../index.rst:9
 msgid "*Последняя правка:* |today|"

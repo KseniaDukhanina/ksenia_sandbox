@@ -53,7 +53,6 @@ extensions = [
  'sphinx_copybutton',
  'sphinx_tabs.tabs',
  'sphinx_rtd_theme',
- 'sphinx-intl'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

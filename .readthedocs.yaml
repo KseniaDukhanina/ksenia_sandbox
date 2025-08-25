@@ -8,17 +8,13 @@ build:
      # nodejs: "18"
      # rust: "1.64"
 
+sphinx:
+  configuration: docs/conf.py
+
 python:
    install:
    - requirements: docs/requirements.txt
-
-sphinx:
-  configuration: docs/conf.py
-  default_language: ru
-  languages:
-    - ru
-    - en
-
+ 
 # Build PDF & ePub
 #formats:
 #  - htmlzip

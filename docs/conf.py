@@ -33,12 +33,14 @@ author = 'Citeck'
 # The full version, including alpha/beta/rc tags
 release = 'Ver. 4'
 
+# Список поддерживаемых языков
+languages = ['ru', 'en']  # Добавляем нужные языки
 
-# Локализация
-locale_dirs = ['../locale/']
-gettext_compact = False
-language = 'ru'
-
+# Настройки локализации
+locale_dirs = ['locale/']  # Path to translate lang
+gettext_compact = False    # Отключаем компактную запись
+gettext_auto_build = True  
+# gettext_uuid = True   
 
 # -- General configuration ---------------------------------------------------
 
@@ -63,6 +65,11 @@ templates_path = ['_templates']
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 
+
+# Настройки для многоязычности
+language = 'ru'  # Основной язык
+gettext_uuid = True
+gettext_location = True
 
 html_context = {
     'current_language': 'ru',

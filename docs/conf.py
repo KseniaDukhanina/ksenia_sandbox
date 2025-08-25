@@ -45,7 +45,7 @@ extensions = [
  'sphinx_copybutton',
  'sphinx_tabs.tabs',
  'sphinx_rtd_theme',
- 'sphinx-intl',
+ 'sphinx-intl'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -57,12 +57,12 @@ templates_path = ['_templates']
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-#language = 'ru'
+language = 'ru'
 
 # translate
-#locale_dirs = ['locale/']   # Path to translate lang
-#gettext_compact = False   
-#gettext_auto_build = True  
+locale_dirs = ['locale/']   # Path to translate lang
+gettext_compact = False   
+gettext_auto_build = True  
 # gettext_uuid = True   
 
 html_context = {

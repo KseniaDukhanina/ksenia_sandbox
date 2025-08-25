@@ -12,19 +12,6 @@ python:
    install:
    - requirements: docs/requirements.txt
 
-# Языковые настройки
-language:
-  name: russian
-  code: ru
-  default: true
-  slug: ru
-  direction: ltr
-
-# Список всех поддерживаемых языков
-languages:
-  - ru
-  - en
-
 sphinx:
   configuration: docs/conf.py
  

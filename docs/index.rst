@@ -46,6 +46,6 @@
 
 .. toctree::
    :hidden:
-   :maxdepth: 9
+   :maxdepth: 3
 
    Введение

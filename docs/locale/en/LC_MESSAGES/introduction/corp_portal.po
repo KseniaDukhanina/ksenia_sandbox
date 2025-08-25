@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Citeck \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-22 02:31+0300\n"
+"POT-Creation-Date: 2025-08-22 12:00+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: ../../introduction/corp_portal.rst:2
 msgid "Корпоративный портал"
-msgstr ""
+msgstr "Corporate Portal"
 
 #: ../../introduction/corp_portal.rst:7
 msgid "Contents"
-msgstr ""
+msgstr "Contents"
 
 #: ../../introduction/corp_portal.rst:9
 msgid ""
@@ -33,22 +33,23 @@ msgid ""
 "объединяет различные инструменты, информацию и сервисы в одном месте. Он "
 "используется для работы, коммуникации и управления бизнес-процессами."
 msgstr ""
+"**Corporate Portal** is a section for company employees that combines various tools, information, and services in one place. It is used for work, communication, and managing business processes."
 
 #: ../../introduction/corp_portal.rst:15
 msgid "Портал обеспечивает:"
-msgstr ""
+msgstr "The portal provides:"
 
 #: ../../introduction/corp_portal.rst:17
 msgid "Хранение документов, регламентов, баз знаний."
-msgstr ""
+msgstr "Storage of documents, regulations, knowledge bases."
 
 #: ../../introduction/corp_portal.rst:18
 msgid "Новости компании, анонсы."
-msgstr ""
+msgstr "Company news, announcements."
 
 #: ../../introduction/corp_portal.rst:19
 msgid "Автоматизацию рабочих процессов (отпуска, заявки, отчетность)."
-msgstr ""
+msgstr "Automation of work processes (vacations, requests, reporting)."
 
 #: ../../introduction/corp_portal.rst:21
 msgid ""
@@ -57,22 +58,25 @@ msgid ""
 "рождения<widget_birthdays>` сотрудников **(3)**. Для enterprise версии "
 "Citeck будет доступен виджет :ref:`«Активности»<widget_activities>`."
 msgstr ""
+"The main page contains a dashboard with welcome information **(1)**, :ref:`news<widget_news>` **(2)**, employee :ref:`birthdays<widget_birthdays>` **(3)**. For the Citeck enterprise version, the :ref:`\"Activities\"<widget_activities>` widget will be available."
 
 #: ../../introduction/corp_portal.rst:27
 msgid ""
 "В меню **(4)** доступны основные разделы корпоративного портала: "
 "**Полезное**, **Сервисы** и **Оргструктура**."
 msgstr ""
+"The menu **(4)** provides access to the main sections of the corporate portal: **Useful**, **Services**, and **Org Structure**."
 
 #: ../../introduction/corp_portal.rst:29
 msgid ""
 "В приветственном виджете по клику на **Смотреть больше** открывается "
 ":ref:`База знаний <wiki_corp>`"
 msgstr ""
+"In the welcome widget, clicking **See more** opens the :ref:`Knowledge Base <wiki_corp>`"
 
 #: ../../introduction/corp_portal.rst:32
 msgid "Полезное"
-msgstr ""
+msgstr "Useful"
 
 #: ../../introduction/corp_portal.rst:34
 msgid ""
@@ -80,16 +84,18 @@ msgid ""
 "представлена информация в виде :ref:`библиотек "
 "документов<document_library>` - с файлами можно ознакомиться, скачать:"
 msgstr ""
+"The subsections **Our Products**, **Our Values**, **Benefits** present information in the form of :ref:`document libraries<document_library>` - files can be viewed and downloaded:"
 
 #: ../../introduction/corp_portal.rst:56
 msgid ""
 "В подразделе **Новости** информация представлена в виде списка превью "
 "новостей:"
 msgstr ""
+"In the **News** subsection, information is presented as a list of news previews:"
 
 #: ../../introduction/corp_portal.rst:62
 msgid "По клику на превью открывается карточка новости:"
-msgstr ""
+msgstr "Clicking on a preview opens the news card:"
 
 #: ../../introduction/corp_portal.rst:70
 msgid ""
@@ -97,26 +103,27 @@ msgid ""
 ":ref:`иерархии<widget_knowledge_base>`. При выборе раздела справа "
 "открывается сама :ref:`публикация<widget_publication>`."
 msgstr ""
+"In the **Knowledge Base** subsection, information is presented as a :ref:`hierarchy<widget_knowledge_base>`. When a section is selected, the :ref:`publication<widget_publication>` itself opens on the right."
 
 #: ../../introduction/corp_portal.rst:78
 msgid "Сервисы"
-msgstr ""
+msgstr "Services"
 
 #: ../../introduction/corp_portal.rst:80
 msgid "В разделе доступны самые популярные корпоративные бизнес-процессы:"
-msgstr ""
+msgstr "The section provides access to the most popular corporate business processes:"
 
 #: ../../introduction/corp_portal.rst:82
 msgid ":ref:`Заявления на отпуск<ecos-vacation>`"
-msgstr ""
+msgstr ":ref:`Vacation Requests<ecos-vacation>`"
 
 #: ../../introduction/corp_portal.rst:88
 msgid ":ref:`Заявки на пропуск<ecos-order-pass>`"
-msgstr ""
+msgstr ":ref:`Pass Requests<ecos-order-pass>`"
 
 #: ../../introduction/corp_portal.rst:95
 msgid "Оргструктура"
-msgstr ""
+msgstr "Org Structure"
 
 #: ../../introduction/corp_portal.rst:97
 msgid ""
@@ -124,56 +131,58 @@ msgid ""
 "сотрудников и их взаимосвязи. Форма оргструктуры разделена на две части и"
 " содержит:"
 msgstr ""
+"The section displays the company hierarchy - departments, positions, employees, and their interconnections. The org structure form is divided into two parts and contains:"
 
 #: ../../introduction/corp_portal.rst:99
 msgid "иерархическое дерево структуры с возможностью поиска;"
-msgstr ""
+msgstr "a hierarchical tree of the structure with search capability;"
 
 #: ../../introduction/corp_portal.rst:100
 msgid "дашборд с информацией о выбранной части структуры."
-msgstr ""
+msgstr "a dashboard with information about the selected part of the structure."
 
 #: ../../introduction/corp_portal.rst:107
 msgid "Добавление контента"
-msgstr ""
+msgstr "Adding Content"
 
 #: ../../introduction/corp_portal.rst:110
 msgid "Наполнение подразделов Наши продукты, Наши ценности, Льготы"
-msgstr ""
+msgstr "Populating the Our Products, Our Values, Benefits subsections"
 
 #: ../../introduction/corp_portal.rst:112
 msgid "Выбранные папки, файлы перетащите в область загрузки:"
-msgstr ""
+msgstr "Drag and drop selected folders and files into the upload area:"
 
 #: ../../introduction/corp_portal.rst:118
 msgid "или воспользуйтесь кнопкой **+**:"
-msgstr ""
+msgstr "or use the **+** button:"
 
 #: ../../introduction/corp_portal.rst:141
 msgid "Подробно о :ref:`библиотеке документов<document_library>`"
-msgstr ""
+msgstr "Details on :ref:`document library<document_library>`"
 
 #: ../../introduction/corp_portal.rst:144
 msgid "Добавление новостей"
-msgstr ""
+msgstr "Adding News"
 
 #: ../../introduction/corp_portal.rst:146
 msgid "Перейдите в журнал **\"Новости\"**:"
-msgstr ""
+msgstr "Go to the **\"News\"** journal:"
 
 #: ../../introduction/corp_portal.rst:152
 msgid ""
 "Нажмите **+** и с помощью :ref:`редактора<wysiwyg_editor>` оформите текст"
 " новости и сохраните:"
 msgstr ""
+"Click **+** and use the :ref:`editor<wysiwyg_editor>` to format the news text and save:"
 
 #: ../../introduction/corp_portal.rst:159
 msgid "Добавление статей в базу знаний"
-msgstr ""
+msgstr "Adding Articles to the Knowledge Base"
 
 #: ../../introduction/corp_portal.rst:161
 msgid "Перейдите в журнал **\"База знаний\"**:"
-msgstr ""
+msgstr "Go to the **\"Knowledge Base\"** journal:"
 
 #: ../../introduction/corp_portal.rst:167
 msgid ""
@@ -183,18 +192,18 @@ msgid ""
 "маленький **+** **(2)**. Количество создаваемых публикаций в каждом "
 "уровне не ограничено."
 msgstr ""
+"To add a publication or 1st-level section, click the large **+** **(1)**, use the :ref:`editor<wysiwyg_editor>` to create content, and save. To add a publication or subsection, click the small **+** **(2)**. The number of publications created at each level is unlimited."
 
 #: ../../introduction/corp_portal.rst:173
 msgid "Добавленная публикация в структуре:"
-msgstr ""
+msgstr "Added publication in the structure:"
 
 #: ../../introduction/corp_portal.rst:180
 msgid "Корпоративный портал при первой установке платформы"
-msgstr ""
+msgstr "Corporate Portal upon first platform installation"
 
 #: ../../introduction/corp_portal.rst:182
 msgid ""
 "При первой установке Citeck из шаблона создается пустой корпоративный "
 "портал:"
-msgstr ""
-
+msgstr "Upon first installation of Citeck from the template, an empty corporate portal is created:"

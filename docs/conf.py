@@ -60,7 +60,8 @@ language = 'ru'
 
 # translate
 locale_dirs = ['locale/']   # Path to translate lang
-gettext_compact = False     
+gettext_compact = False   
+gettext_auto_build = True  
 # gettext_uuid = True   
 
 html_context = {

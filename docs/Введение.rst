@@ -8,17 +8,9 @@
 .. toctree::
     :maxdepth: 2
 
-    introduction/workspaces
     introduction/corp_portal
-    introduction/homepage
     introduction/datalists
-    introduction/org_structure
-    introduction/ecos_modules
     introduction/functions
-    introduction/AI_Assistant
-    introduction/modules
-    introduction/admin
-    introduction/fast_develop
-    introduction/video_training
+
 
 

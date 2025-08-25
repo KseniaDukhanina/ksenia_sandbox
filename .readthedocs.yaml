@@ -14,7 +14,11 @@ python:
 
 sphinx:
   configuration: docs/conf.py
- 
+  default_language: ru
+  languages:
+    - ru
+    - en
+
 # Build PDF & ePub
 #formats:
 #  - htmlzip

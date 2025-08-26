@@ -3,19 +3,27 @@ version: 2
 build:
   os: ubuntu-22.04
   tools:
-    python: "3.12"
-     # You can also specify other tool versions:
-     # nodejs: "18"
-     # rust: "1.64"
+    python: "3.10"
 
 sphinx:
   configuration: docs/conf.py
 
+# ВКЛЮЧАЕМ SUBMODULES - это критически важно!
+submodules:
+  include: all
+  recursive: true
+  depth: 50
+
+
 python:
-   install:
-   - requirements: docs/requirements.txt
- 
-# Build PDF & ePub
-#formats:
-#  - htmlzip
-#  - pdf
+  install:
+    - requirements: docs/requirements.txt
+
+# Команды для сборки
+build:
+  commands:
+    - echo "Building Ksenia Sandbox documentation..."
+    - echo "Updating submodules..."
+    - git submodule update --init --recursive
+    - echo "Building Russian version..."
+    - sphinx-build -b html -D language=ru docs/ _build/html/

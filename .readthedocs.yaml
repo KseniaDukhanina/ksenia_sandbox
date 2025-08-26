@@ -12,10 +12,3 @@ python:
   install:
     - requirements: docs/requirements.txt
 
-# Сборка для разных языков
-build:
-  commands:
-    - echo "Building Russian version..."
-    - sphinx-build -b html -D language=ru docs/ _build/ru/
-    - echo "Building English version..."
-    - sphinx-build -b html -D language=en docs/ _build/en/

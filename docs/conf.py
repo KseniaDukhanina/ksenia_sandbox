@@ -39,9 +39,9 @@ release = 'Ver. 4'
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 
-# Языковые настройки
-language = 'ru'
-locale_dirs = ['docs/locale/']
+# ЯЗЫКОВЫЕ НАСТРОЙКИ
+language = 'ru'  # Основной язык
+locale_dirs = ['locale/']  # Папка с переводами
 gettext_compact = False
 gettext_location = True
 
@@ -59,6 +59,8 @@ extensions = [
  'sphinx_copybutton',
  'sphinx_tabs.tabs',
  'sphinx_rtd_theme',
+ 'sphinx.ext.autodoc',
+ 'sphinx.ext.intersphinx',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

@@ -8,22 +8,15 @@ build:
 sphinx:
   configuration: docs/conf.py
 
-# ВКЛЮЧАЕМ SUBMODULES - это критически важно!
-submodules:
-  include: all
-  recursive: true
-  depth: 50
-
-
 python:
   install:
     - requirements: docs/requirements.txt
 
-# Команды для сборки
+# Сборка для разных языков
 build:
   commands:
-    - echo "Building Ksenia Sandbox documentation..."
-    - echo "Updating submodules..."
     - git submodule update --init --recursive
     - echo "Building Russian version..."
-    - sphinx-build -b html -D language=ru docs/ _build/html/
+    - sphinx-build -b html -D language=ru docs/ _build/ru/
+    - echo "Building English version..."
+    - sphinx-build -b html -D language=en docs/ _build/en/

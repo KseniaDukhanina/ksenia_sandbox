@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Citeck
+# This file is distributed under the same license as the Citeck package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Citeck \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-25 20:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../introduction/functions/wysiwyg_editor.rst:2
+msgid "WYSIWYG-редактор"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst:6
+msgid ""
+"**WYSIWYG-редактор** (произносится как «ви-зи-виг») — инструмент для "
+"создания и редактирования контента (текста, изображений, таблиц) в режиме"
+" реального времени, где результат отображается так, как он будет "
+"выглядеть после публикации."
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst:8
+msgid ""
+"Визуальный редактор в Citeck основан на современном гибком и "
+"высокопроизводительном фреймворке `Lexical <https://lexical.dev>`_."
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst:10
+msgid ""
+"Над областью редактирования расположена панель инструментов "
+"WYSIWYG-редактора, при помощи которого можно оформлять текст, вставлять "
+"таблицы, изображения, математические формулы"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst:16
+msgid "Рассмотрим ее функционал подробнее:"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst
+msgid "Выбрать уровень заголовков, вида списка и т.д."
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst
+msgid ""
+"Изменить размера шрифта, применить стиль текста - жирный, курсив, "
+"подчеркнутый, добавить блок кода, ссылку"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst
+msgid "Изменить цвет текста, цвет фона"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst
+msgid "Изменить выравнивание и отступ"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst
+msgid "Вставить объект."
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst
+msgid "Изображение можно вставить как из файла, так и из ссылки."
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst
+msgid "Загрузить файл"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst
+msgid "Файл будет отображаться в виде ссылки:"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst
+msgid "По клику доступен его просмотр:"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst
+msgid "Упомянуть пользователя"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst:111
+msgid "Пример работы с редактором:"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst:118
+msgid "Быстрое редактирование выделенного текста"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst:124
+msgid "**1** - перемещение строки или выделенной области"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst:125
+msgid "**2** - форматирование выделенного текста"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst:128
+msgid "Добавление и редактирование таблицы"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst:130
+msgid ""
+"Выберите в меню **Вставка - Таблица**, выберите количество строк и "
+"столбцов:"
+msgstr ""
+
+#: ../../introduction/functions/wysiwyg_editor.rst:136
+msgid ""
+"Для таблицы доступно изменение ширины и высоты ячеек, как в обычных "
+"редакторах, добавление столбцов и строк **(1)**, действия с таблицей "
+"доступны по нажатию на **(2)**:"
+msgstr ""
+

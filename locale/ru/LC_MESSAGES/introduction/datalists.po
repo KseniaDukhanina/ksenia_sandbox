@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Citeck
+# This file is distributed under the same license as the Citeck package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Citeck \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-25 20:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../introduction/datalists.rst:2
+msgid "Справочники"
+msgstr ""
+
+#: ../../introduction/datalists.rst:6
+msgid ""
+"**Справочник** - тип для хранения наборов бизнес-данных, которые будут "
+"использоваться как статические данные для документов, не участвующие "
+"непосредственно в бизнес-процессах."
+msgstr ""
+
+#: ../../introduction/datalists.rst:8
+msgid ""
+"**Основные справочники** доступны в публичном :ref:`рабочем "
+"пространстве<workspaces>` **«Справочники»**:"
+msgstr ""
+
+#: ../../introduction/datalists.rst:14
+msgid ""
+"Данные из этих справочников используются при создании большинства "
+"документов Системы:"
+msgstr ""
+
+#: ../../introduction/datalists.rst:16
+msgid "Контрагенты;"
+msgstr ""
+
+#: ../../introduction/datalists.rst:17
+msgid "Юридические лица;"
+msgstr ""
+
+#: ../../introduction/datalists.rst:18
+msgid "Единицы измерения;"
+msgstr ""
+
+#: ../../introduction/datalists.rst:19
+msgid "Организационно-правовые формы;"
+msgstr ""
+
+#: ../../introduction/datalists.rst:20
+msgid "Банковские счета;"
+msgstr ""
+
+#: ../../introduction/datalists.rst:21
+msgid "Валюты;"
+msgstr ""
+
+#: ../../introduction/datalists.rst:22
+msgid "Курсы валют:"
+msgstr ""
+
+#: ../../introduction/datalists.rst:24
+msgid "Внутренний;"
+msgstr ""
+
+#: ../../introduction/datalists.rst:25
+msgid "ЦБ."
+msgstr ""
+
+#: ../../introduction/datalists.rst:29
+msgid ""
+"Так же для каждого модуля системы создаются отдельные справочники, "
+"доступные в рабочих пространствах этих модулей."
+msgstr ""
+
+#: ../../introduction/datalists.rst:33
+msgid ""
+"Создание записи справочника является типовой операцией для всех "
+"справочников. Для этого необходимо:"
+msgstr ""
+
+#: ../../introduction/datalists.rst:35
+msgid "Выбрать справочник."
+msgstr ""
+
+#: ../../introduction/datalists.rst:36
+msgid "Нажать **+**"
+msgstr ""
+
+#: ../../introduction/datalists.rst:42
+msgid ""
+"В открывшейся форме заполнить необходимые поля (обязательные для "
+"заполнения поля отмечены **«*»** )."
+msgstr ""
+
+#: ../../introduction/datalists.rst:48
+msgid "Нажать кнопку **Применить**."
+msgstr ""
+
+#: ../../introduction/datalists.rst:50
+msgid "Подробно о :ref:`создании справочников<dataset_sample>`."
+msgstr ""
+
+#: ../../introduction/datalists.rst:52
+msgid ""
+"Так же :ref:`рабочем пространстве<workspaces>` **«Справочники»** доступна"
+" :ref:`организационная структура<org_structure>`:"
+msgstr ""
+

@@ -23,7 +23,6 @@ if os.environ.get("READTHEDOCS", "") == "True":
 
 import sys
 sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, os.path.abspath('./ksenia-sandbox-eng'))
 
 # -- Project information -----------------------------------------------------
 
@@ -42,7 +41,7 @@ release = 'Ver. 4'
 
 # Языковые настройки
 language = 'ru'
-locale_dirs = ['docs/locale/', 'ksenia-sandbox-eng/docs/locale/']
+locale_dirs = ['docs/locale/']
 gettext_compact = False
 gettext_location = True
 
@@ -66,12 +65,14 @@ extensions = [
 templates_path = ['_templates']
 
 
-# Ссылки на другие языки
+# Контекст для языкового переключателя
 html_context = {
     'languages': languages,
     'current_language': language,
-    'en_docs_url': 'https://ksenia-sandbox-eng.readthedocs.io/',
-    'ru_docs_url': 'https://ksenia-sandbox.readthedocs.io/',
+    'translations': {
+        'en': 'https://ksenia-sandbox.readthedocs.io/en/latest/',
+        'ru': 'https://ksenia-sandbox.readthedocs.io/ru/latest/',
+    }
 }
 
 # List of patterns, relative to source directory, that match files and

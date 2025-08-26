@@ -1,20 +1,19 @@
-# Minimal makefile for Sphinx documentation
-#
+.PHONY: help gettext update-translation build-all
 
-# You can set these variables from the command line, and also
-# from the environment for the first two.
-SPHINXOPTS    ?=
-SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = .
-BUILDDIR      = _build
-
-# Put it first so that "make" without argument is like "make help".
 help:
-	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	@echo "Available commands:"
+	@echo "  make gettext           - Extract translatable strings"
+	@echo "  make update-translation - Update translation files"
+	@echo "  make build-all         - Build all language versions"
 
-.PHONY: help Makefile
+gettext:
+	sphinx-build -b gettext docs/ docs/locale/ru/LC_MESSAGES/
+	cd ksenia-sandbox-eng && sphinx-build -b gettext docs/ docs/locale/en/LC_MESSAGES/
 
-# Catch-all target: route all unknown targets to Sphinx using the new
-# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
-%: Makefile
-	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+update-translation:
+	sphinx-intl update -p docs/locale/ru/LC_MESSAGES/ -l en -d ksenia-sandbox-eng/docs/locale/
+	sphinx-intl update -p ksenia-sandbox-eng/docs/locale/en/LC_MESSAGES/ -l ru -d docs/locale/
+
+build-all:
+	sphinx-build -b html -D language=ru docs/ _build/ru/
+	sphinx-build -b html -D language=en ksenia-sandbox-eng/docs/ _build/en/

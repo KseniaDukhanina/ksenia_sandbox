@@ -22,7 +22,8 @@ if os.environ.get("READTHEDOCS", "") == "True":
     html_context["READTHEDOCS"] = True
 
 import sys
-# sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('./ksenia-sandbox-eng'))
 
 # -- Project information -----------------------------------------------------
 
@@ -39,13 +40,14 @@ release = 'Ver. 4'
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 
-# Список поддерживаемых языков
-languages = ['ru', 'en']  # Полный список поддерживаемых языков
-language = 'ru'  # Основной язык
-locale_dirs = ['locale/']  # Path to translate lang
-gettext_compact = False    # Отключаем компактную запись
-gettext_auto_build = True  
-# gettext_uuid = True   
+# Языковые настройки
+language = 'ru'
+locale_dirs = ['docs/locale/', 'ksenia-sandbox-eng/docs/locale/']
+gettext_compact = False
+gettext_location = True
+
+# Поддерживаемые языки
+languages = ['ru', 'en'] 
 
 # -- General configuration ---------------------------------------------------
 
@@ -64,10 +66,12 @@ extensions = [
 templates_path = ['_templates']
 
 
+# Ссылки на другие языки
 html_context = {
-    'current_language': 'ru',
-    'languages': ['ru', 'en'],  # ЯВНО перечислите языки
-    'display_github': True,
+    'languages': languages,
+    'current_language': language,
+    'en_docs_url': 'https://ksenia-sandbox-eng.readthedocs.io/',
+    'ru_docs_url': 'https://ksenia-sandbox.readthedocs.io/',
 }
 
 # List of patterns, relative to source directory, that match files and

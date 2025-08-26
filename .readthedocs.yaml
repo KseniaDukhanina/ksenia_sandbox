@@ -15,7 +15,6 @@ python:
 # Сборка для разных языков
 build:
   commands:
-    - git submodule update --init --recursive
     - echo "Building Russian version..."
     - sphinx-build -b html -D language=ru docs/ _build/ru/
     - echo "Building English version..."

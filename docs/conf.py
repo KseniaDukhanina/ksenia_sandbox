@@ -41,12 +41,10 @@ release = 'Ver. 4'
 
 # ЯЗЫКОВЫЕ НАСТРОЙКИ
 language = 'ru'  # Основной язык
+languages = ['ru', 'en'] # Поддерживаемые языки
 locale_dirs = ['locale/']  # Папка с переводами
 gettext_compact = False
 gettext_location = True
-
-# Поддерживаемые языки
-languages = ['ru', 'en'] 
 
 # -- General configuration ---------------------------------------------------
 
@@ -63,17 +61,6 @@ extensions = [
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
-
-
-# Контекст для языкового переключателя
-html_context = {
-    'languages': languages,
-    'current_language': language,
-    'translations': {
-        'en': 'https://ksenia-sandbox.readthedocs.io/en/latest/',
-        'ru': 'https://ksenia-sandbox.readthedocs.io/ru/latest/',
-    }
-}
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
